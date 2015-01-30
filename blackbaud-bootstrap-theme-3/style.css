@@ -1,0 +1,230 @@
+/*
+Theme Name:         Blackbaud Bootstrap (child) - Theme 3
+Theme URI:          http://www.blackbaud.com
+Description:        Blackbaud Bootstrap is a WordPress starter theme based on the Roots Theme. <a href="https://github.com/roots/roots/contributors">Contribute on GitHub</a>
+Version:            1.0.0
+Author:             Blackbaud Interactive
+Template:           blackbaud-bootstrap
+License:            MIT License
+License URI:        http://opensource.org/licenses/MIT
+*/
+
+@import url("../blackbaud-bootstrap/style.css");
+
+
+#header {
+	background-color: #000;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+	@media (min-width: 768px) {
+		#header {
+			padding-top: 50px;
+		}
+	}
+	@media (max-width: 767px) {
+		#header .navbar-brand {
+			height: 50px;
+		}
+	}
+
+
+
+#logo {}
+	@media (max-width: 767px) {
+		#logo .navbar-brand a,
+		#logo .navbar-brand img {
+			display: block;
+			height: 100%;
+			width: auto;
+		}
+	}
+
+
+
+#utility {
+	background-color:#212121;
+}
+#utility #menu-utility-navigation > li > a {
+	color: #fff;
+}
+#utility #menu-utility-navigation > li > a:hover,
+#utility #menu-utility-navigation > li > a:focus {
+	background-color: #57defc;
+}
+	#utility input,
+	#utility button {
+		border:0;
+	}
+	#utility input {
+		height:32px;
+	}
+	@media (max-width: 767px) {
+		#utility form {
+			margin-bottom: 0;
+			padding: 15px;
+		}
+	}
+	@media (min-width:768px) {
+		#utility {
+			left: 0;
+			margin: 0;
+			position: absolute;
+			text-align: right;
+			top: 0;
+			width: 100%;
+		}
+		#utility .navbar-form {
+			float: right;
+			width: 20%;
+		}
+	}
+
+
+
+#nav {}
+#nav #menu-primary-navigation > li > a {
+	background-color: #000;
+	color: #fff;
+}
+#nav #menu-primary-navigation > li > a:hover {
+	background-color: #57DEFC;
+}
+	@media (max-width: 767px) {
+		#nav > ul {
+			margin-top: 0;
+		}
+		#utility .container {
+			padding: 0;
+		}
+	}
+	@media (min-width: 768px) {
+		#nav {
+			display: table;
+			height: 100% !important;
+			position: relative;
+		}
+		#nav > ul {
+			height: 100%;
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+		#nav > ul > li {
+			display: table;
+			height: 100%;
+			margin-left: 2px;
+		}
+		#nav > ul > li > a {
+			background-color: #444;
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+
+
+
+#media {
+	background-color: #ddd;
+	box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.2) inset;
+}
+	#media .container {
+		position: relative;
+	}
+	#media .carousel-caption,
+	#media .carousel-indicators {
+		left: 0;
+		margin-left: 0;
+		padding-left: 20px;
+		right: 0;
+		text-align: left;
+	}
+	@media (max-width: 767px) {
+		#media .container {
+			padding:0;
+		}
+	}
+
+
+
+#callsToAction {
+	color: #fff;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+#ctaOne, 
+#ctaTwo, 
+#ctaThree {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 1px;
+	padding-bottom: 3px;
+	background-color: #FFB30D;
+	text-align: center;
+}
+#ctaOne h3, 
+#ctaTwo h3, 
+#ctaThree h3 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#ctaOne a, 
+#ctaTwo a, 
+#ctaThree a {
+	display: block;
+}
+
+
+
+#footer {color: #fff;}
+#footer .textwidget a {
+	color: #000;
+}
+
+
+custom {}
+body {
+	font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+	font-size: 14px;
+}
+a,
+.navbar-inverse .navbar-nav>li>a {color: #000;}
+a:hover,
+a:focus {
+	color: #000;
+}
+.home #content {
+	padding-top: 0;
+}
+#home-content-primary .page-header h1 {
+	font-size: 24px;
+}
+.btn-primary {
+	background-color: #57DEFC;
+}
+.btn-primary:hover, 
+.btn-primary:focus, 
+.btn-primary:active, 
+.btn-primary.active, 
+.open 
+.dropdown-toggle.btn-primary {
+	background-color: #000;
+}
+.upw-posts .entry-image {
+	float: left;
+	margin-right: 15px;
+	border: 1px solid #999;
+}
+.tribe-events-list-widget .duration {
+	font-weight: normal;
+}
+.tribe-events-list-widget ol li {
+	margin-bottom: 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+}
+.upw-posts.hfeed {
+	margin-top: 20px;
+}

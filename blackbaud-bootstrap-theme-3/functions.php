@@ -1,0 +1,4 @@
+<?php
+/**
+ * CUSTOM FUNCTIONS
+ **/
